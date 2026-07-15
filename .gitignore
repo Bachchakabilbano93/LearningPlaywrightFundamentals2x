@@ -7,5 +7,10 @@ node_modules/
 /playwright/.cache/
 /playwright/.auth/
 
+# Generated reports
+/allure-results/
+/tta-report/
+/user-session.json/
+
 # IDE and tooling
 /.commandcode/
