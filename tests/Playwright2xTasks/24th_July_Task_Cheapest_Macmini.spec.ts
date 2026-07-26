@@ -30,6 +30,7 @@ function findCheapestPrice(prices: number[]): number | null {
     }
 
     return cheapestPrice;
+
 }
 
 test.describe("Find the cheapest macmini", () => {
