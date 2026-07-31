@@ -25,9 +25,7 @@ test.describe('FileUpload handling', () => {
 
             ]);
 
-        await page.locator(".pf-v6-c-button pf-m-secondary").click(); // Error is coming, "." should not be 
-        // present in the CSS locator, still
-        // adter removing ".", error is coming
+        await page.locator(".pf-v6-c-button.pf-m-secondary").click();
 
         await page.waitForTimeout(15000);
 
