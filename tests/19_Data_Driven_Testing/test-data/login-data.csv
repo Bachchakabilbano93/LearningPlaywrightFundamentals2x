@@ -1,0 +1,8 @@
+description,username,password,shouldPass,expectedError
+valid credentials,admin@gmail.com,admin123,true,
+invalid password,admin@gmail.com,wrongpass,false,Invalid credentials
+empty username,,admin123@gmail.com,false,Username is required
+empty password,admin@gmail.com,,false,Password is required
+locked account,locked_user@gmail.com,pass123,false,Account is locked
+special chars,admin@gmail.com,p@$$w0rd!,true,
+SQL injection,admin' OR '1'='1,password,false,Invalid credentials

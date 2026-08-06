@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Abir",
+        "experience": 11,
+        "isTrainer": false,
+        "middleName": "",
+        "skills": [
+            "JavaScript",
+            "Playwright",
+            "Selenium"
+        ],
+        "address": {
+            "city": "Pune",
+            "country": "India"
+        }
+    }
+]
